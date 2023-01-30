@@ -1,0 +1,32 @@
+
+Answer those two questions
+
+1.What do you need to do (step by step) in order to run your project without maven using only the Java and javac binaries provided by Java SE?
+
+maven is a project resource management tool,
+ only does resource management, does not participate in the operation of the project. 
+So is it an architecture that maven recognizes when using maven for management during the project development phase
+
+This is because the project runs compiled content, not source files. So even though the maven project source code architecture is
+ different from that of JAVASE and JAVAEE, the compiled project architecture is the same
+
+
+
+
+2.How does Maven help us
+
+Maven is a build tool, service and build. After configuring a project with Maven, enter a simple command such as mvn clean install.
+Maven takes care of the tedious tasks for us
+Maven is cross-platform
+Maven maximizes to eliminate build duplication
+Maven helps us standardize the build process. All projects are simple and consistent, simplifying learning costs. 
+In short,Maven as a build tool not only helps us automate the build but also abstracts the build process for the implementation of the build task. 
+Its cross-platform, external operation interface is enough to make it a good and popular build tool. But Maven is more than just a build tool, it's a dependency management tool, 
+it's a project information management tool, and it provides a central repository that automatically downloads components,
+
+
+
+
+
+<img width="810" alt="f5bb937b5b8c5dd3e85355b2ae59023" src="https://user-images.githubusercontent.com/122685297/215336735-f123b975-aecc-4457-838b-af16cd114424.png">
+<img width="787" alt="68ea641d8dd21b73d0eeb3231366f87" src="https://user-images.githubusercontent.com/122685297/215336766-072714de-053f-4e82-9a28-c1b2c25ba9bc.png">
